@@ -1,0 +1,48 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://jthompsonjr.github.io/speed-of-darknesss/the-speed-of-darkness/manifest.json",
+    "type": "Manifest",
+    "label": { "en": [ "The Speed of Darkness" ] },
+    "homepage": [
+      {
+        "id": "https://archive.org/details/speed-of-darkness_202303",
+        "type": "Text",
+        "label": { "en": [ "The Speed of Darkness" ] },
+        "format": "text/html"
+      }
+    ],
+    "provider": [
+      {
+        "id": "www.archive.org",
+        "type": "Agent",
+        "label": { "en": [ "The Internet Archive" ] }
+      }
+    ],
+    "items": [
+      {
+        "id": "https://jthompsonjr.github.io/speed-of-darknesss/the-speed-of-darkness/canvas-1/canvas",
+        "type": "Canvas",
+        "duration": 372.0,
+        "items": [
+          {
+            "id": "https://jthompsonjr.github.io/speed-of-darknesss/the-speed-of-darkness/canvas-1/paintings",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "https://jthompsonjr.github.io/speed-of-darknesss/the-speed-of-darkness/canvas-1/painting",
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "https://ia601604.us.archive.org/21/items/speed-of-darkness_202303/Speed%20of%20Darkness.mp3",
+                  "type": "Sound",
+                  "format": "audio/mp3",
+                    "duration": 372.0
+                },
+                "target": "https://jthompsonjr.github.io/speed-of-darknesss/the-speed-of-darkness/canvas-1/canvas"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+} 
