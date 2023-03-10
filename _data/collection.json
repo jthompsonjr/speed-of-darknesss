@@ -1,0 +1,9 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://example.com/collection.json",
+    "type": "Collection",
+    "label": { "en": [ "The Speed of Darkness" ] },
+    "summary": { "en": [ "AudiAnnotate test project using a recording of the Speed of Darkness" ] },
+    "items": [
+    ]
+}
